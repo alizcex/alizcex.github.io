@@ -1,0 +1,57 @@
+.blue {
+    display: block;
+    text-align: left;
+    border: 4px solid blue;
+    background: lightblue;
+    width: 200px;
+    padding: 10px;
+}
+
+.green {
+    text-align: left;
+    border: 4px solid darkgreen;
+    background: lightgreen;
+    width: 200px;
+    padding: 10px;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+}
+
+.topnav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a.unordered:hover {
+    background-color: yellow;
+    color: black
+}
+
+a.unordered:active {
+    background-color: purple;
+    color: white;
+}
+
+a.ordered:hover {
+    background-color: yellow;
+    color: black
+}
+
+a.ordered:active {
+    background-color: purple;
+    color: white;
+}
+
+ul, li, h4:not(.unordered, .ordered, .topnav) {
+    margin: 10px ;
+}

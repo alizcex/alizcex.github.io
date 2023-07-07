@@ -19,7 +19,6 @@ html {
 
 body {
     width: 600px;
-    height: 600px;
     margin: 0 auto;
     background-color: orange;
     padding: 0 20px 20px 20px;
@@ -28,5 +27,22 @@ body {
 
 img {
     display: block;
-    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    text-align: center;
+}
+
+.popular {
+    border: 4px dotted red ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#heading {
+    color: blue;
 }
