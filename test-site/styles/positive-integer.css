@@ -1,13 +1,31 @@
-h2 {
-    text-align: center;
+@media only screen and (max-width: 1920px) {
+    h2 {
+        text-align: center;
+    }
+    
+    .heading {
+        text-align: left;
+        font-size: 35px;
+    }
+    
+    li {
+        text-align: left;
+        font-size: 20px;
+    }   
 }
 
-.heading {
-    text-align: left;
-    font-size: 35px;
-}
-
-li {
-    font-size: 20px;
-    text-align: left;
-}
+@media only screen and (device-width: 390px) {
+    h2 {
+      text-align: center;
+    }
+  
+    .heading {
+      text-align: left;
+      font-size: 40px;
+    }
+  
+    li {
+      text-align: left;
+      font-size: 25px;
+    }
+  }
