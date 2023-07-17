@@ -1,9 +1,9 @@
-var getNumber = getPositiveNumber();
-var primes = findPrimeNumbers(getNumber);
+let getNumber = getPositiveNumber();
+let primes = findPrimeNumbers(getNumber);
 
 // Enter a positive number
 function getPositiveNumber () {
-  var number;
+  let number;
   inputNumberLoop : while (true) {
     number = parseInt(prompt("Enter a positive number"))
     if (Number.isInteger(number) && number > 0) {
@@ -15,7 +15,7 @@ function getPositiveNumber () {
 
 // Loop for get prime number
 function findPrimeNumbers (number) {
-  var primeNumbers = [];
+  let primeNumbers = [];
   primeNumbersLoop : for (var i = 2; i <= number; i++) {
     for (var j = 2; j < i; j++) {
       if (i % j === 0) {
@@ -26,7 +26,6 @@ function findPrimeNumbers (number) {
   }
   return primeNumbers
 }
-
 
 // Alert prime number result
 function showPrimeNumbers (number, primeNumbers) {
